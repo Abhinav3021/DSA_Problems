@@ -1,0 +1,1 @@
+{"name":"Local: longestCommonSubsequence","url":"c:\\Users\\singh\\OneDrive\\Desktop\\Problems\\DP\\longestCommonSubsequence.cpp","tests":[{"id":1720336627867,"input":"axyb\nabyxb","output":"axb"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\singh\\OneDrive\\Desktop\\Problems\\DP\\longestCommonSubsequence.cpp","group":"local","local":true}

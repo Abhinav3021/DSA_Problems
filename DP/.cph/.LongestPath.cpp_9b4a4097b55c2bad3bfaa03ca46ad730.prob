@@ -1,0 +1,1 @@
+{"name":"Local: LongestPath","url":"c:\\Users\\singh\\OneDrive\\Desktop\\Problems\\DP\\LongestPath.cpp","tests":[{"id":1720343415769,"input":"4 5\n1 2\n1 3\n3 2\n2 4\n3 4","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\singh\\OneDrive\\Desktop\\Problems\\DP\\LongestPath.cpp","group":"local","local":true}

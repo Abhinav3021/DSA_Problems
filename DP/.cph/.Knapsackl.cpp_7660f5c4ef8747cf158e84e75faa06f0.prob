@@ -1,0 +1,1 @@
+{"name":"Local: Knapsackl","url":"c:\\Users\\singh\\OneDrive\\Desktop\\Problems\\DP\\Knapsackl.cpp","tests":[{"id":1720123237271,"input":"3 8\n3 30\n4 50\n5 60","output":"90"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\singh\\OneDrive\\Desktop\\Problems\\DP\\Knapsackl.cpp","group":"local","local":true}
