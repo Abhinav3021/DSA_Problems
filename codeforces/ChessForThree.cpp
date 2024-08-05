@@ -25,8 +25,6 @@ int main(){
         else if(a==1 && b>1 && c>1){
             maxdraw=b;
         }
-        else if((a+b+c)%2==0){maxdraw=-1;}
-        else if(c>sum){maxdraw=-1;}
         else{
             maxdraw=sum;
         }
