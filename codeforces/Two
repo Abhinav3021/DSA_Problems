@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int n, a, b;
+        cin >> n >> a >> b;
+        vector<int> v(n + 1, 0);
+        v[a] = 1; // 1 - Alice
+        v[b] = 2; // 2 - Bob
+        int chance = 1, win = 0;
+        while (win == 0) {
+            if (chance == 1) {
+                if ((a == n && b == n - 1) || (a == 1 && b == 2)) {
+                    win = 2;
+                } else {
+                    if (b > a && a + 1 <= n) {
+                        if (b == a + 1 && a - 1 >= 1) {
+                            a = a - 1;
+                        } else {
+                            a = a + 1;
+                        }
+                    } else {
+                        // ...existing code...
+                    }
+                }
+            } else {
+                // ...existing code...
+            }
+        }
+    }
+    return 0;
+}

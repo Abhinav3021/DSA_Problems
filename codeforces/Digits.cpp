@@ -8,40 +8,28 @@ int main() {
         long long n;
         int d;
         cin >> n >> d;
-        set<int> v;
-        
-        // No need to check divisibility since these are guaranteed based on factorial properties
-        if(n < 3) {
-            v.insert(1);
+        vector<int> v;
+
+        //here we are checking the conditions for every odd numbers 
+        v.push_back(1);
+         
+        if(n>=3 || d%3==0) {
+            v.push_back(3);
         }
-        else if(n < 5) {
-            v.insert(1);
-            v.insert(3);
+        if(d%5==0) {
+            v.push_back(5);
         }
-        else if(n < 7) {
-            v.insert(1);
-            v.insert(3);
-            v.insert(5);
+        if(n>=3 || d%7==0) {     // use this https://www.youtube.com/watch?v=TCbCTb0vdOg
+            v.push_back(7);
         }
-        else if(n < 9) {
-            v.insert(1);
-            v.insert(3);
-            v.insert(5);
-            v.insert(7);
-        }
-        else {
-            v.insert(1);
-            v.insert(3);
-            v.insert(5);
-            v.insert(7);
-            v.insert(9);
+        if(n>=6 || d%9==0 || (n>=3 && d%3==0)) {
+            v.push_back(9);
         }
         
-        // Print the odd divisors
         for(int i : v) {
             cout << i << " ";
         }
         cout << "\n";
     }
-    return 0;
+    
 }
