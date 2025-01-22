@@ -15,7 +15,8 @@ Example 3:
 Input: nums = [], target = 0
 Output: [-1,-1]
 */
-
+#include<bits/stdc++.h>
+using namespace std ;
 class Solution {
 public:
     int BinarySearchFirstOcc(vector<int>& nums, int target){
